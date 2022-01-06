@@ -8,26 +8,18 @@
 .slider{
   height: 100%;
 }
+
 .slide{
-  background-color: blueviolet;  
+  background-color: white;  
   display: flex;
   justify-content: flex-end;
+  padding: 0 5%;
+  position: relative;
   align-items: flex-end;
 }
-.pictureWrapper{
-  width: 55%;
-  height: 80%;
-  position: relative;
-}
 
-.picture {
- object-fit: contain;
- height: 100%;
- width: 100%;
- object-position: bottom right;
-}
-.slide1{
-  background-color: blue;  
+.slideColumn{
+  flex-direction: column;
 }
 .slide2{
   background-color: red;  
